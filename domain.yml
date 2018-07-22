@@ -1,0 +1,118 @@
+intents:
+  - default
+  - greet
+  - bye
+  - affirm
+  - deny
+  - location_inform
+  - price_quote_request
+  - car_id_inform
+  - car_info_request
+  - car_info_inform
+  - car_status_request
+  - car_status_inform
+  - car_eta_request
+  - car_eta_inform
+  - car_service_issues_request
+  - car_service_issues_inform
+  - car_last_completed_event_request
+  - car_last_completed_event_inform
+  - car_next_scheduled_event_request
+  - car_next_scheduled_event_inform
+  - lance_fritz_request
+
+entities:
+  - request
+  - car_id
+  - location
+  - origin
+  - destination
+
+slots:
+  request:
+    type: text
+  car_id:
+    type: text
+  location:
+    type: text
+  origin:
+    type: text
+  destination:
+    type: text
+  is_valid:
+    type: bool
+
+templates:
+  utter_default:
+    - "Can you rephrase that?"
+    - "I didn't understand that."
+    - "Sorry, I can't answer this question."
+  utter_greet:
+    - "Hi! I'm the UP Assistant. How can I help?"
+    - "Welcome to the UP Assistant! Ask me anything!"
+    - "I'm the UP Assistant! How can I be of service?"
+    - "Hello there! I'm the UP Assistant! What can I do for you?"
+  utter_bye:
+    - "Bye!"
+    - "Cya!"
+    - "Goodbye!"
+  utter_invalid:
+    - "Invalid. Try again."
+    - "Yea...NO. Try again."
+    - "Nice try, but that's invalid."
+  utter_ask_origin:
+    - "What is your origin? (Omaha, NE)"
+  utter_ask_destination:
+    - "What is your destination? (Omaha, NE)"
+  utter_ask_car_id:
+    - "What is the car id?"
+  utter_car_specifics:
+    - text: "Car Specifics"
+      buttons:
+        - title: "Status"
+          payload: "{car_id} status"
+        - title: "ETA"
+          payload: "{car_id} eta"
+        - title: "Service Issues"
+          payload: "{car_id} service issues"
+        - title: "Description"
+          payload: "{car_id} description"
+        - title: "Last Completed Event"
+          payload: "{car_id} last completed event"
+        - title: "Next Scheduled Event"
+          payload: "{car_id} next scheduled event"
+  utter_ask_specifics:
+    - text: "More specifics?"
+      buttons:
+        - title: "Yes"
+          payload: "yes"
+        - title: "No"
+          payload: "no"
+  utter_lance_fritz:
+  - text: "You're welcome. - Will B."
+    image: "https://media.discordapp.net/attachments/470448093112827914/470454563409756170/image.jpg"
+
+actions:
+  - utter_default
+  - utter_greet
+  - utter_bye
+  - utter_invalid
+  - utter_ask_origin
+  - utter_ask_destination
+  - utter_ask_car_id
+  - utter_car_specifics
+  - utter_ask_specifics
+  - utter_lance_fritz
+  - actions.ActionGetRequest
+  - actions.ActionStoreOrigin
+  - actions.ActionStoreDestination
+  - actions.ActionGetPriceQuote
+  - actions.ActionIsCar
+  - actions.ActionGetCarInfo
+  - actions.ActionGetCarStatus
+  - actions.ActionGetCarETA
+  - actions.ActionGetCarServiceIssues
+  - actions.ActionGetCarServiceIssuesURL
+  - actions.ActionGetCarLastCompletedEvent
+  - actions.ActionGetCarNextScheduledEvent
+  - actions.ActionClearSlots

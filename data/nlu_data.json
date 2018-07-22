@@ -1,0 +1,2364 @@
+{
+	"rasa_nlu_data": {
+		"regex_features": [
+			{
+				"name": "car_id",
+				"pattern": "^[a-zA-Z]{4}[0-9]{4}"
+			}
+		],
+		"common_examples": [
+			{
+				"text": "It is so wholesome.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 19,
+						"entity": "default",
+						"start": 0,
+						"value": "It is so wholesome."
+					}
+				]
+			},
+			{
+				"text": "I like paperclips.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 18,
+						"entity": "default",
+						"start": 0,
+						"value": "I like paperclips."
+					}
+				]
+			},
+			{
+				"text": "Union Pacific is a great company.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 33,
+						"entity": "default",
+						"start": 0,
+						"value": "Union Pacific is a great company."
+					}
+				]
+			},
+			{
+				"text": "What is the meaning of life.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 28,
+						"entity": "default",
+						"start": 0,
+						"value": "What is the meaning of life."
+					}
+				]
+			},
+			{
+				"text": "Will loves cheesecake.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 22,
+						"entity": "default",
+						"start": 0,
+						"value": "Will loves cheesecake."
+					}
+				]
+			},
+			{
+				"text": "Water is very healthy.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 22,
+						"entity": "default",
+						"start": 0,
+						"value": "Water is very healthy."
+					}
+				]
+			},
+			{
+				"text": "It is Anjuli's birthday today.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 30,
+						"entity": "default",
+						"start": 0,
+						"value": "It is Anjuli's birthday today."
+					}
+				]
+			},
+			{
+				"text": "Waterbottles are really nice.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 29,
+						"entity": "default",
+						"start": 0,
+						"value": "Waterbottles are really nice."
+					}
+				]
+			},
+			{
+				"text": "My phone runs out of battery a lot.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 35,
+						"entity": "default",
+						"start": 0,
+						"value": "My phone runs out of battery a lot."
+					}
+				]
+			},
+			{
+				"text": "I've got the courage to care.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 29,
+						"entity": "default",
+						"start": 0,
+						"value": "I've got the courage to care."
+					}
+				]
+			},
+			{
+				"text": "Caluiflower's are delicious.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 28,
+						"entity": "default",
+						"start": 0,
+						"value": "Caluiflower's are delicious."
+					}
+				]
+			},
+			{
+				"text": "Hackathons are cool.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 20,
+						"entity": "default",
+						"start": 0,
+						"value": "Hackathons are cool."
+					}
+				]
+			},
+			{
+				"text": "My Dad loves me.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 16,
+						"entity": "default",
+						"start": 0,
+						"value": "My Dad loves me."
+					}
+				]
+			},
+			{
+				"text": "I hate donald trump.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 20,
+						"entity": "default",
+						"start": 0,
+						"value": "I hate donald trump."
+					}
+				]
+			},
+			{
+				"text": "I like to eat pizza.",
+				"intent": "default",
+				"entities": [
+					{
+						"end": 20,
+						"entity": "default",
+						"start": 0,
+						"value": "I like to eat pizza."
+					}
+				]
+			},
+			{
+				"text": "hey",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "howdy",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hey there",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hello",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hi",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "dear sir",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "what's up",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "yo",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "sup",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "cya later",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "adieu",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "so long",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "have a good one",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "cya",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "cheerio",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "bye",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "goodbye",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "ciao",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "adios",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "farewell",
+				"intent": "bye",
+				"entities": []
+			},
+			{
+				"text": "yes",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "Yes",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "Yep",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "no",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "No",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "Nay",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "picture of lance",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "Lance Fritz",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "pictures of fritz",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "images of lance fritz",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "image of lance fritz",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "images of Lance Fritz",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "lance",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "image of lance",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "picture of Lance Fritz",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "lance fritz",
+				"intent": "lance_fritz_request",
+				"entities": []
+			},
+			{
+				"text": "Omaha",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 5,
+						"entity": "location",
+						"start": 0,
+						"value": "Omaha"
+					}
+				]
+			},
+			{
+				"text": "Chesterfield",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 12,
+						"entity": "location",
+						"start": 0,
+						"value": "Chesterfield"
+					}
+				]
+			},
+			{
+				"text": "St. Louis",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 9,
+						"entity": "location",
+						"start": 0,
+						"value": "St. Louis"
+					}
+				]
+			},
+			{
+				"text": "Los Angeles",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 11,
+						"entity": "location",
+						"start": 0,
+						"value": "Los Angeles"
+					}
+				]
+			},
+			{
+				"text": "San Francisco",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 13,
+						"entity": "location",
+						"start": 0,
+						"value": "San Francisco"
+					}
+				]
+			},
+			{
+				"text": "San Diego",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 9,
+						"entity": "location",
+						"start": 0,
+						"value": "San Diego"
+					}
+				]
+			},
+			{
+				"text": "New York",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "location",
+						"start": 0,
+						"value": "New York"
+					}
+				]
+			},
+			{
+				"text": "San Antonio",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 11,
+						"entity": "location",
+						"start": 0,
+						"value": "San Antonio"
+					}
+				]
+			},
+			{
+				"text": "Atlanta",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 7,
+						"entity": "location",
+						"start": 0,
+						"value": "Atlanta"
+					}
+				]
+			},
+			{
+				"text": "Chicago",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 7,
+						"entity": "location",
+						"start": 0,
+						"value": "Chicago"
+					}
+				]
+			},
+			{
+				"text": "Toronto",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 7,
+						"entity": "location",
+						"start": 0,
+						"value": "Toronto"
+					}
+				]
+			},
+			{
+				"text": "Rolla",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 5,
+						"entity": "location",
+						"start": 0,
+						"value": "Rolla"
+					}
+				]
+			},
+			{
+				"text": "Austin",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 6,
+						"entity": "location",
+						"start": 0,
+						"value": "Austin"
+					}
+				]
+			},
+			{
+				"text": "Springfield",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 11,
+						"entity": "location",
+						"start": 0,
+						"value": "Springfield"
+					}
+				]
+			},
+			{
+				"text": "Boston",
+				"intent": "location_inform",
+				"entities": [
+					{
+						"end": 6,
+						"entity": "location",
+						"start": 0,
+						"value": "Boston"
+					}
+				]
+			},
+			{
+				"text": "price quote",
+				"intent": "price_quote_request",
+				"entities": []
+			},
+			{
+				"text": "pricing",
+				"intent": "price_quote_request",
+				"entities": []
+			},
+			{
+				"text": "quotes for transportation",
+				"intent": "price_quote_request",
+				"entities": []
+			},
+			{
+				"text": "transportation cost",
+				"intent": "price_quote_request",
+				"entities": []
+			},
+			{
+				"text": "quote",
+				"intent": "price_quote_request",
+				"entities": []
+			},
+			{
+				"text": "quotes",
+				"intent": "price_quote_request",
+				"entities": []
+			},
+			{
+				"text": "price",
+				"intent": "price_quote_request",
+				"entities": []
+			},
+			{
+				"text": "from New York, NY to San Francisco, CA price quote",
+				"intent": "price_quote_inform",
+				"entities": [
+					{
+						"end": 17,
+						"entity": "location",
+						"start": 5,
+						"value": "New York, NY"
+					},
+					{
+						"end": 38,
+						"entity": "location",
+						"start": 21,
+						"value": "San Francisco, CA"
+					}
+				]
+			},
+			{
+				"text": "Atlanta, GA to Atlanta, GA price quote",
+				"intent": "price_quote_inform",
+				"entities": [
+					{
+						"end": 11,
+						"entity": "location",
+						"start": 0,
+						"value": "Atlanta, GA"
+					},
+					{
+						"end": 26,
+						"entity": "location",
+						"start": 15,
+						"value": "Atlanta, GA"
+					}
+				]
+			},
+			{
+				"text": "San Francisco, CA to New York, NY price quote",
+				"intent": "price_quote_inform",
+				"entities": [
+					{
+						"end": 17,
+						"entity": "location",
+						"start": 0,
+						"value": "San Francisco, CA"
+					},
+					{
+						"end": 33,
+						"entity": "location",
+						"start": 21,
+						"value": "New York, NY"
+					}
+				]
+			},
+			{
+				"text": "from New York, NY to Atlanta, GA price quote",
+				"intent": "price_quote_inform",
+				"entities": [
+					{
+						"end": 17,
+						"entity": "location",
+						"start": 5,
+						"value": "New York, NY"
+					},
+					{
+						"end": 32,
+						"entity": "location",
+						"start": 21,
+						"value": "Atlanta, GA"
+					}
+				]
+			},
+			{
+				"text": "San Francisco, CA to Atlanta, GA price quote",
+				"intent": "price_quote_inform",
+				"entities": [
+					{
+						"end": 17,
+						"entity": "location",
+						"start": 0,
+						"value": "San Francisco, CA"
+					},
+					{
+						"end": 32,
+						"entity": "location",
+						"start": 21,
+						"value": "Atlanta, GA"
+					}
+				]
+			},
+			{
+				"text": "from Atlanta, GA to New York, NY price quote",
+				"intent": "price_quote_inform",
+				"entities": [
+					{
+						"end": 16,
+						"entity": "location",
+						"start": 5,
+						"value": "Atlanta, GA"
+					},
+					{
+						"end": 32,
+						"entity": "location",
+						"start": 20,
+						"value": "New York, NY"
+					}
+				]
+			},
+			{
+				"text": "ANJU1234",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ANJU1234"
+					}
+				]
+			},
+			{
+				"text": "EOFI9283",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "EOFI9283"
+					}
+				]
+			},
+			{
+				"text": "PDHA4758",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "PDHA4758"
+					}
+				]
+			},
+			{
+				"text": "POFI2835",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "POFI2835"
+					}
+				]
+			},
+			{
+				"text": "sjio9283",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "sjio9283"
+					}
+				]
+			},
+			{
+				"text": "GOUY9374",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "GOUY9374"
+					}
+				]
+			},
+			{
+				"text": "difj3847",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "difj3847"
+					}
+				]
+			},
+			{
+				"text": "woif2389",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "woif2389"
+					}
+				]
+			},
+			{
+				"text": "WIFJ2837",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WIFJ2837"
+					}
+				]
+			},
+			{
+				"text": "IJFN2822",
+				"intent": "car_id_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "IJFN2822"
+					}
+				]
+			},
+			{
+				"text": "car information",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "equipment info",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "train details",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "cart summary",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "equipment description",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "cart report",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "car description",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "train information",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "car info",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "train report",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "equipment details",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "equipment summary",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "train description",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "cart information",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "car details",
+				"intent": "car_info_request",
+				"entities": []
+			},
+			{
+				"text": "ABCD1234 summary",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ABCD1234"
+					}
+				]
+			},
+			{
+				"text": "kjwe3867 report",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "kjwe3867"
+					}
+				]
+			},
+			{
+				"text": "omdv0298 information",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "omdv0298"
+					}
+				]
+			},
+			{
+				"text": "ksbn2093 details",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ksbn2093"
+					}
+				]
+			},
+			{
+				"text": "UWTY8973 info",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "UWTY8973"
+					}
+				]
+			},
+			{
+				"text": "WKEJ2092 description",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WKEJ2092"
+					}
+				]
+			},
+			{
+				"text": "WILL0521 description",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WILL0521"
+					}
+				]
+			},
+			{
+				"text": "omdv0298 info",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "omdv0298"
+					}
+				]
+			},
+			{
+				"text": "WILL0521 report",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WILL0521"
+					}
+				]
+			},
+			{
+				"text": "ksbn2093 summary",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ksbn2093"
+					}
+				]
+			},
+			{
+				"text": "UWTY8973 information",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "UWTY8973"
+					}
+				]
+			},
+			{
+				"text": "ABCD1234 details",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ABCD1234"
+					}
+				]
+			},
+			{
+				"text": "WKEJ2092 info",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WKEJ2092"
+					}
+				]
+			},
+			{
+				"text": "kjwe3867 details",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "kjwe3867"
+					}
+				]
+			},
+			{
+				"text": "WILL0521 summary",
+				"intent": "car_info_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WILL0521"
+					}
+				]
+			},
+			{
+				"text": "car status",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "car state",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "cart completed",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "train progress",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "car percent completed",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "train status",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "cart state",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "equipment progress",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "cart percent completed",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "train completed",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "equipment state",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "car progress",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "car status",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "equipment completed",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "car completed",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "train percent completed",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "cart status",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "cart progress",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "equipment percent completed",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "train state",
+				"intent": "car_status_request",
+				"entities": []
+			},
+			{
+				"text": "GOUY9374 progress",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "GOUY9374"
+					}
+				]
+			},
+			{
+				"text": "PDHA4758 status",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "PDHA4758"
+					}
+				]
+			},
+			{
+				"text": "wifj2847 status",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "wifj2847"
+					}
+				]
+			},
+			{
+				"text": "ANJU1234 progress",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ANJU1234"
+					}
+				]
+			},
+			{
+				"text": "difj3847 status",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "difj3847"
+					}
+				]
+			},
+			{
+				"text": "PDHA4758 progress",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "PDHA4758"
+					}
+				]
+			},
+			{
+				"text": "GOUY9374 status",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "GOUY9374"
+					}
+				]
+			},
+			{
+				"text": "difj3847 progress",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "difj3847"
+					}
+				]
+			},
+			{
+				"text": "ANJU1234 status",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ANJU1234"
+					}
+				]
+			},
+			{
+				"text": "wifj2847 progress",
+				"intent": "car_status_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "wifj2847"
+					}
+				]
+			},
+			{
+				"text": "equipment arrival time",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "car estimated time of arrival",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "train eta",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "cart arrival time",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "equipment eta",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "cart estimated time of arrival",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "train estimated time of arrival",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "car eta",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "train arrival time",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "equipment estimated time of arrival",
+				"intent": "car_eta_request",
+				"entities": []
+			},
+			{
+				"text": "afjo2082 estimated time of arrival",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "afjo2082"
+					}
+				]
+			},
+			{
+				"text": "IEJF9283 arrival time",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "IEJF9283"
+					}
+				]
+			},
+			{
+				"text": "jofe3580 eta",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "jofe3580"
+					}
+				]
+			},
+			{
+				"text": "afsd0382 estimated time of arrival",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "afsd0382"
+					}
+				]
+			},
+			{
+				"text": "OPRJ5470 eta",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "OPRJ5470"
+					}
+				]
+			},
+			{
+				"text": "FEHI3498 arrival time",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "FEHI3498"
+					}
+				]
+			},
+			{
+				"text": "JIOF9485 arrival time",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "JIOF9485"
+					}
+				]
+			},
+			{
+				"text": "FEHI3498 eta",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "FEHI3498"
+					}
+				]
+			},
+			{
+				"text": "IEJF9283 estimated time of arrival",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "IEJF9283"
+					}
+				]
+			},
+			{
+				"text": "afjo2082 eta",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "afjo2082"
+					}
+				]
+			},
+			{
+				"text": "jofe3580 arrival time",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "jofe3580"
+					}
+				]
+			},
+			{
+				"text": "OPRJ5470 arrival time",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "OPRJ5470"
+					}
+				]
+			},
+			{
+				"text": "JIOF9485 estimated time of arrival",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "JIOF9485"
+					}
+				]
+			},
+			{
+				"text": "JIOF9485 eta",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "JIOF9485"
+					}
+				]
+			},
+			{
+				"text": "afsd0382 arrival time",
+				"intent": "car_eta_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "afsd0382"
+					}
+				]
+			},
+			{
+				"text": "equipment service issues",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "cart errors",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "car problems",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "train issues",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "equipment errors",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "car service issues",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "cart problems",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "car errors",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "train service issues",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "equipment issues",
+				"intent": "car_service_issues_request",
+				"entities": []
+			},
+			{
+				"text": "afjo2082 issues",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "afjo2082"
+					}
+				]
+			},
+			{
+				"text": "IEJF9283 errors",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "IEJF9283"
+					}
+				]
+			},
+			{
+				"text": "JIOF9485 service issues",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "JIOF9485"
+					}
+				]
+			},
+			{
+				"text": "idjw2834 service issues",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "idjw2834"
+					}
+				]
+			},
+			{
+				"text": "OFIW8566 service issues",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "OFIW8566"
+					}
+				]
+			},
+			{
+				"text": "FEHI3498 problems",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "FEHI3498"
+					}
+				]
+			},
+			{
+				"text": "afsd0382 problems",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "afsd0382"
+					}
+				]
+			},
+			{
+				"text": "jofe3580 errors",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "jofe3580"
+					}
+				]
+			},
+			{
+				"text": "OPRJ5470 service issues",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "OPRJ5470"
+					}
+				]
+			},
+			{
+				"text": "afsd0382 issues",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "afsd0382"
+					}
+				]
+			},
+			{
+				"text": "afjo2082 problems",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "afjo2082"
+					}
+				]
+			},
+			{
+				"text": "OPRJ5470 errors",
+				"intent": "car_service_issues_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "OPRJ5470"
+					}
+				]
+			},
+			{
+				"text": "last completed event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "cart previous event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "equipment recently finished event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "car last event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "car previous event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "last completed event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "cart last completed event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "train last event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "recently finished event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "last event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "cart recently finished event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "equipment last completed event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "cart last event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "equipment previous event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "car recently finished event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "train previous event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "previous event",
+				"intent": "car_last_completed_event_request",
+				"entities": []
+			},
+			{
+				"text": "ABCD1234 prior event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ABCD1234"
+					}
+				]
+			},
+			{
+				"text": "omdv0298 last completed event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "omdv0298"
+					}
+				]
+			},
+			{
+				"text": "WILL0521 previous event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WILL0521"
+					}
+				]
+			},
+			{
+				"text": "UWTY8973 preceding event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "UWTY8973"
+					}
+				]
+			},
+			{
+				"text": "WKEJ2092 recently finished event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WKEJ2092"
+					}
+				]
+			},
+			{
+				"text": "ksbn2093 before event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ksbn2093"
+					}
+				]
+			},
+			{
+				"text": "kjwe3867 antecedent event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "kjwe3867"
+					}
+				]
+			},
+			{
+				"text": "omdv0298 prior event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "omdv0298"
+					}
+				]
+			},
+			{
+				"text": "WKEJ2092 preceding event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WKEJ2092"
+					}
+				]
+			},
+			{
+				"text": "UWTY8973 recently finished event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "UWTY8973"
+					}
+				]
+			},
+			{
+				"text": "WILL0521 before event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WILL0521"
+					}
+				]
+			},
+			{
+				"text": "ksbn2093 last completed event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ksbn2093"
+					}
+				]
+			},
+			{
+				"text": "ABCD1234 previous event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ABCD1234"
+					}
+				]
+			},
+			{
+				"text": "kjwe3867 previous event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "kjwe3867"
+					}
+				]
+			},
+			{
+				"text": "ABCD1234 preceding event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ABCD1234"
+					}
+				]
+			},
+			{
+				"text": "UWTY8973 antecedent event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "UWTY8973"
+					}
+				]
+			},
+			{
+				"text": "WILL0521 last completed event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WILL0521"
+					}
+				]
+			},
+			{
+				"text": "omdv0298 before event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "omdv0298"
+					}
+				]
+			},
+			{
+				"text": "ksbn2093 prior event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ksbn2093"
+					}
+				]
+			},
+			{
+				"text": "ABCD1234 before event",
+				"intent": "car_last_completed_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ABCD1234"
+					}
+				]
+			},
+			{
+				"text": "car next event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "train next scheduled event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "car next scheduled event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "upcoming event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "equipment event coming up",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "cart next scheduled event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "train upcoming event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "cart event coming up",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "next event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "equipment next scheduled event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "car upcoming event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "car event coming up",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "train event coming up",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "equipment upcoming event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "equipment next event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "event coming up",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "next scheduled event",
+				"intent": "car_next_scheduled_event_request",
+				"entities": []
+			},
+			{
+				"text": "WPIO2094 upcoming event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WPIO2094"
+					}
+				]
+			},
+			{
+				"text": "kwjb0293 imminent event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "kwjb0293"
+					}
+				]
+			},
+			{
+				"text": "ioud5784 next scheduled event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ioud5784"
+					}
+				]
+			},
+			{
+				"text": "poqu7654 following event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "poqu7654"
+					}
+				]
+			},
+			{
+				"text": "IUDK8933 next event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "IUDK8933"
+					}
+				]
+			},
+			{
+				"text": "oiuw2340 future event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "oiuw2340"
+					}
+				]
+			},
+			{
+				"text": "JWHE2392 succeeding event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "JWHE2392"
+					}
+				]
+			},
+			{
+				"text": "kwjb0293 coming up event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "kwjb0293"
+					}
+				]
+			},
+			{
+				"text": "WPIO2094 imminent event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WPIO2094"
+					}
+				]
+			},
+			{
+				"text": "poqu7654 succeeding event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "poqu7654"
+					}
+				]
+			},
+			{
+				"text": "IUDK8933 upcoming event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "IUDK8933"
+					}
+				]
+			},
+			{
+				"text": "ioud5784 following event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ioud5784"
+					}
+				]
+			},
+			{
+				"text": "JWHE2392 next event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "JWHE2392"
+					}
+				]
+			},
+			{
+				"text": "WPIO2094 next scheduled event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "WPIO2094"
+					}
+				]
+			},
+			{
+				"text": "poqu7654 coming up event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "poqu7654"
+					}
+				]
+			},
+			{
+				"text": "ioud5784 succeeding event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "ioud5784"
+					}
+				]
+			},
+			{
+				"text": "JWHE2392 upcoming event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "JWHE2392"
+					}
+				]
+			},
+			{
+				"text": "IUDK8933 next scheduled event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "IUDK8933"
+					}
+				]
+			},
+			{
+				"text": "oiuw2340 following event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "oiuw2340"
+					}
+				]
+			},
+			{
+				"text": "poqu7654 future event",
+				"intent": "car_next_scheduled_event_inform",
+				"entities": [
+					{
+						"end": 8,
+						"entity": "car_id",
+						"start": 0,
+						"value": "poqu7654"
+					}
+				]
+			}
+		]
+	}
+}

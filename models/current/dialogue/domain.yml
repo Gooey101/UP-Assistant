@@ -1,0 +1,147 @@
+action_factory: null
+action_names:
+- utter_default
+- utter_greet
+- utter_bye
+- utter_invalid
+- utter_ask_origin
+- utter_ask_destination
+- utter_ask_car_id
+- utter_car_specifics
+- utter_ask_specifics
+- utter_lance_fritz
+- action_get_request
+- action_store_origin
+- action_store_destination
+- action_get_price_quote
+- action_is_car
+- action_get_car_info
+- action_get_car_status
+- action_get_car_eta
+- action_get_car_service_issues
+- action_get_car_service_issues_url
+- action_get_car_last_completed_event
+- action_get_car_next_scheduled_event
+- action_clear_slots
+actions:
+- utter_default
+- utter_greet
+- utter_bye
+- utter_invalid
+- utter_ask_origin
+- utter_ask_destination
+- utter_ask_car_id
+- utter_car_specifics
+- utter_ask_specifics
+- utter_lance_fritz
+- actions.ActionGetRequest
+- actions.ActionStoreOrigin
+- actions.ActionStoreDestination
+- actions.ActionGetPriceQuote
+- actions.ActionIsCar
+- actions.ActionGetCarInfo
+- actions.ActionGetCarStatus
+- actions.ActionGetCarETA
+- actions.ActionGetCarServiceIssues
+- actions.ActionGetCarServiceIssuesURL
+- actions.ActionGetCarLastCompletedEvent
+- actions.ActionGetCarNextScheduledEvent
+- actions.ActionClearSlots
+config:
+  store_entities_as_slots: true
+entities:
+- request
+- car_id
+- location
+- origin
+- destination
+intents:
+- default
+- greet
+- bye
+- affirm
+- deny
+- location_inform
+- price_quote_request
+- car_id_inform
+- car_info_request
+- car_info_inform
+- car_status_request
+- car_status_inform
+- car_eta_request
+- car_eta_inform
+- car_service_issues_request
+- car_service_issues_inform
+- car_last_completed_event_request
+- car_last_completed_event_inform
+- car_next_scheduled_event_request
+- car_next_scheduled_event_inform
+- lance_fritz_request
+slots:
+  car_id:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  destination:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  is_valid:
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  origin:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  request:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_car_id:
+  - text: What is the car id?
+  utter_ask_destination:
+  - text: What is your destination? (Omaha, NE)
+  utter_ask_origin:
+  - text: What is your origin? (Omaha, NE)
+  utter_ask_specifics:
+  - buttons:
+    - payload: yes
+      title: Yes
+    - payload: no
+      title: No
+    text: More specifics?
+  utter_bye:
+  - text: Bye!
+  - text: Cya!
+  - text: Goodbye!
+  utter_car_specifics:
+  - buttons:
+    - payload: '{car_id} status'
+      title: Status
+    - payload: '{car_id} eta'
+      title: ETA
+    - payload: '{car_id} service issues'
+      title: Service Issues
+    - payload: '{car_id} description'
+      title: Description
+    - payload: '{car_id} last completed event'
+      title: Last Completed Event
+    - payload: '{car_id} next scheduled event'
+      title: Next Scheduled Event
+    text: Car Specifics
+  utter_default:
+  - text: Can you rephrase that?
+  - text: I didn't understand that.
+  - text: Sorry, I can't answer this question.
+  utter_greet:
+  - text: Hi! I'm the UP Assistant. How can I help?
+  - text: Welcome to the UP Assistant! Ask me anything!
+  - text: I'm the UP Assistant! How can I be of service?
+  - text: Hello there! I'm the UP Assistant! What can I do for you?
+  utter_invalid:
+  - text: Invalid. Try again.
+  - text: Yea...NO. Try again.
+  - text: Nice try, but that's invalid.
+  utter_lance_fritz:
+  - image: https://media.discordapp.net/attachments/470448093112827914/470454563409756170/image.jpg
+    text: You're welcome. - Will B.

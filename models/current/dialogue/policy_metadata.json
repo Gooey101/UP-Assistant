@@ -1,0 +1,80 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "request",
+        "car_id",
+        "location"
+      ]
+    },
+    "action_get_car_next_scheduled_event": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "utter_car_specifics": {
+      "slots": []
+    },
+    "action_get_request": {
+      "slots": []
+    },
+    "action_get_car_service_issues": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "utter_invalid": {
+      "slots": []
+    },
+    "utter_lance_fritz": {
+      "slots": []
+    },
+    "action_get_car_status": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "action_get_car_last_completed_event": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "action_get_car_info": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "utter_ask_specifics": {
+      "slots": []
+    },
+    "action_get_car_eta": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "action_is_car": {
+      "slots": [
+        "is_valid"
+      ]
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "action_clear_slots": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.10.1",
+  "max_histories": [
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

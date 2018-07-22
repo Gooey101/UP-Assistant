@@ -1,0 +1,16 @@
+action_factory: null
+action_names:
+- utter_greet
+actions:
+- utter_greet
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+slots: {}
+templates:
+  utter_greet:
+  - text: Hi! How can I help you?
+  - text: Welcome to the Hadoop Chatbot! Ask away!
+  - text: Hello! What would you like to know?
